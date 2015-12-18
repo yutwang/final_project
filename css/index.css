@@ -1,0 +1,77 @@
+.container{
+  width: 1190px;
+  margin:30px auto;
+}
+
+h1{
+  text-align: center;
+  color: #f9cada;
+  font-family: "Courier New";
+}
+
+p{
+  text-align: center;
+  color: #bcbcbc;
+  font-family: "Courier New"
+}
+
+textarea{
+
+  width: 400px;
+  height: 100px;
+  margin:10px;
+  padding:10px;
+  font-size: 12px;
+  position: relative;
+  left: 375px;
+}
+
+
+#cup{
+  border-bottom: 78px solid #f9cada;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 43px;
+  position: absolute;
+  top: 101px;
+  left: 180px;
+}
+
+#surprise{
+  width: 422px;
+  height: 217px;
+  background: url(../images/cat.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left:385px;
+}
+
+.operation{
+  width:422px;
+  margin:20px auto;
+  text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border:none;
+  background:#add8e6;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Courier New";
+  top:300px;
+}
+
+button[disabled]{
+  background: #bcbcbc;
+}
+
+#try{
+  position: absolute;
+  margin-left: 160px;
+  bottom:0;
+}
